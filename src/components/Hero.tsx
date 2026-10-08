@@ -2,6 +2,18 @@
 import profileImage from "../assets/maitreyee.png";
 
 const Hero = () => {
+
+  const scrollToSection = (id: string) => {
+  const element = document.getElementById(id);
+
+  if (element) {
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+};
+
   return (
     <section
       id="home"
@@ -135,7 +147,7 @@ const Hero = () => {
             {/* Projects */}
             <button
               type="button"
-              // onClick={() => scrollToSection("projects")}
+              onClick={() => scrollToSection("projects")}
               className="group relative overflow-hidden rounded-full bg-white px-7 py-3.5 font-semibold text-black transition duration-300 hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(139,92,246,0.25)]"
             >
               <span>View My Projects</span>
@@ -159,7 +171,7 @@ const Hero = () => {
             {/* Contact */}
             <button
               type="button"
-              // onClick={() => scrollToSection("contact")}
+              onClick={() => scrollToSection("contact")}
               className="group relative overflow-hidden rounded-full border border-violet-400/30 bg-gradient-to-r from-violet-500/20 to-cyan-500/20 px-7 py-3.5 font-semibold text-white backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/50"
             >
               <span>Contact Me</span>

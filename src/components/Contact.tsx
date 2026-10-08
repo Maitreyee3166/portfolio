@@ -152,7 +152,9 @@ const Contact = () => {
                 {/* LinkedIn */}
                 <button
                   type="button"
-                  onClick={() => openLink("https://www.linkedin.com/")}
+                  onClick={() =>
+  openLink("https://www.linkedin.com/in/maitreyee-samanta-103bb52ba")
+}
                   className="group flex w-full items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.025] p-4 text-left transition-all duration-300 hover:-translate-y-1 hover:border-fuchsia-400/30 hover:bg-fuchsia-500/[0.04]"
                 >
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-fuchsia-400/20 bg-fuchsia-500/5 text-fuchsia-300 transition-all duration-300 group-hover:border-fuchsia-400/40 group-hover:bg-fuchsia-500/10">
@@ -165,7 +167,7 @@ const Contact = () => {
                     </p>
 
                     <p className="mt-1 text-sm text-gray-300">
-                      LinkedIn Profile
+                      https://www.linkedin.com/in/maitreyee-samanta-103bb52ba
                     </p>
                   </div>
 
