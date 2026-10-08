@@ -255,20 +255,41 @@ const Hero = () => {
             </div>
 
             {/* Code */}
-            <div className="absolute bottom-20 rounded-2xl border border-white/10 bg-[#10101c]/80 px-5 py-4 shadow-2xl backdrop-blur-xl sm:-right-12">
-              <p className="font-mono text-xs text-gray-500">{"<code />"}</p>
+            <div
+  className="
+    absolute
+    -right-14
+    bottom-20
+    z-20
+    rounded-2xl
+    border
+    border-white/10
+    bg-[#10101c]/90
+    px-3
+    py-3
+    shadow-2xl
+    backdrop-blur-xl
 
-              <p className="mt-1 text-sm font-semibold text-gray-200">
-                Turning ideas
-              </p>
+    sm:-right-18
+    sm:bottom-16
+    sm:px-5
+    sm:py-4
+  "
+>
+  <p className="font-mono text-[10px] text-gray-500 sm:text-xs">
+    {"<code />"}
+  </p>
 
-              <p className="text-sm font-semibold text-violet-300">
-                into experiences.
-              </p>
-            </div>
+  <p className="mt-1 text-xs font-semibold text-gray-200 sm:text-sm">
+    Turning ideas
+  </p>
 
+  <p className="text-xs font-semibold text-violet-300 sm:text-sm">
+    into experiences.
+  </p>
+</div>
             {/* Location */}
-            <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 rounded-full border border-white/10 bg-[#10101c]/90 px-5 py-3 shadow-2xl backdrop-blur-xl">
+            <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 rounded-full border border-white/10 bg-[#10101c]/90 px-5 py-3 shadow-2xl backdrop-blur-xl">
               <div className="flex items-center gap-2 whitespace-nowrap">
                 <span>📍</span>
 
