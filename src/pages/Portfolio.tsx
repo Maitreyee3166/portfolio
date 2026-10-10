@@ -20,11 +20,13 @@ const Portfolio = () => {
       <main>
         <Hero />
         <About />
+
+        <Education />
         <Skills />
         
         <Projects />
         <GitHubProject/>
-        <Education />
+        
         <WhatICanDo />
         
         <LearningJourney />
